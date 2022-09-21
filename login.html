@@ -17,7 +17,7 @@
 
     <!-- 登录注册区域 -->
     <div class="loginAndRegBox">
-      <div class="title-box"></div>
+      <div class="title-box"><h1>后台管理系统</h1></div>
       <!-- 登录的div -->
       <div class="login-box">
         <!-- 登录的表单 -->
@@ -25,7 +25,7 @@
           <!-- 用户名 -->
           <div class="layui-form-item">
             <i class="layui-icon layui-icon-username"></i>
-            <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input" />
+            <input type="text" name="username" required lay-verify="username" placeholder="请输入用户名" autocomplete="off" class="layui-input" />
           </div>
           <!-- 密码 -->
           <div class="layui-form-item">
@@ -38,7 +38,7 @@
             <button class="layui-btn layui-btn-fluid layui-btn-normal" lay-submit>登录</button>
           </div>
           <div class="layui-form-item links">
-            <a href="javascript:;" id="link_reg">去注册账号</a>
+            <a  href="javascript:;" id="link_reg" >去注册账号</a>
           </div>
         </form>
       </div>

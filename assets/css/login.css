@@ -11,7 +11,7 @@ body {
 .loginAndRegBox {
   width: 400px;
   height: 310px;
-  background-color: #fff;
+  background-color:transparent;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -19,8 +19,10 @@ body {
 }
 
 .title-box {
-  height: 60px;
-  background: url('/assets/images/login_title.png') no-repeat center;
+  color: aliceblue;
+  margin: 0 auto;
+  text-align: center;
+  height: 50px;
 }
 
 .reg-box {
@@ -37,10 +39,13 @@ body {
 }
 
 .links a {
+  color: aliceblue;
+  font-weight: bold;
   font-size: 12px;
 }
 
 .layui-form-item {
+  
   position: relative;
 }
 
@@ -51,5 +56,7 @@ body {
 }
 
 .layui-input {
+  color: aliceblue;
+  background-color: transparent;
   padding-left: 32px;
 }

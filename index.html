@@ -32,7 +32,7 @@
             </dl>
           </li>
           <li class="layui-nav-item">
-            <a href=""><span class="iconfont icon-tuichu"></span>退出</a>
+            <a href="javascript:;" id="btnLogout"><span class="iconfont icon-tuichu"></span>退出</a>
           </li>
         </ul>
       </div>
@@ -50,30 +50,78 @@
               <a href="/home/dashboard.html" target="fm"><span class="iconfont icon-home"></span>首页</a>
             </li>
             <li class="layui-nav-item">
-              <a class="" href="javascript:;"><span class="iconfont icon-16"></span>文章管理</a>
+              <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
               <dl class="layui-nav-child">
                 <dd>
-                  <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>文章类别</a>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-form"></i>基本资料</a>
                 </dd>
                 <dd>
-                  <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>文章列表</a>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-username"></i>更换头像</a>
                 </dd>
                 <dd>
-                  <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>发布文章</a>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-password"></i>重置密码</a>
                 </dd>
               </dl>
             </li>
             <li class="layui-nav-item">
-              <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
+              <a class="" href="javascript:;"><span class="iconfont icon-pinglun"></span>智能配置</a>
               <dl class="layui-nav-child">
                 <dd>
-                  <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>基本资料</a>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-user"></i>基础配置</a>
                 </dd>
                 <dd>
-                  <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>更换头像</a>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-service"></i>关键词回复</a>
                 </dd>
                 <dd>
-                  <a href="javascript:;"><i class="layui-icon layui-icon-app"></i>重置密码</a>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-survey"></i>关键词事件</a>
+                </dd>
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-layer"></i>回调事件</a>
+                </dd>
+              </dl>
+            </li>
+            <li class="layui-nav-item">
+              <a class="" href="javascript:;"><span class="layui-icon layui-icon-friends" style="font-size: 20px;margin-left: 0px;"></span>好友管理</a>
+              <dl class="layui-nav-child">
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-user"></i>好友列表</a>
+                </dd>
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-release"></i>每日说任务</a>
+                </dd>
+              </dl>
+            </li>
+            <li class="layui-nav-item">
+              <a class="" href="javascript:;"><span class="layui-icon layui-icon-group" style="font-size: 20px;margin-left: -4px;"></span>群管理</a>
+              <dl class="layui-nav-child">
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-user"></i>多群消息同步</a>
+                </dd>
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-ok"></i>关键词入群</a>
+                </dd>
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-dialogue"></i>群资讯任务</a>
+                </dd>
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-log"></i>群定时任务</a>
+                </dd>
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-camera"></i>群合影</a>
+                </dd>
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-table"></i>群词云</a>
+                </dd>
+              </dl>
+            </li>
+            <li class="layui-nav-item">
+              <a class="" href="javascript:;"><span class="layui-icon layui-icon-file-b" style="font-size: 20px;margin-left: 0px;"></span>素材中心</a>
+              <dl class="layui-nav-child">
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-fonts-i"></i>文字素材</a>
+                </dd>
+                <dd>
+                  <a href="javascript:;"><i class="layui-icon layui-icon-picture-fine"></i>文件素材</a>
                 </dd>
               </dl>
             </li>
@@ -88,10 +136,16 @@
 
       <div class="layui-footer">
         <!-- 底部固定区域 -->
-        © www.itheima.com - 黑马程序员
+        © www.wandiansha.net - 微信智能回复机器人
       </div>
     </div>
     <!-- 导入 layui 的JS文件 -->
     <script src="/assets/lib/layui/layui.all.js"></script>
+    <!-- 导入jquery -->
+    <script src = '/assets/lib/jquery.js'></script>
+    <!-- 导入baseapi -->
+    <script src = '/assets/js/baseAPI.js'></script>
+    <!-- 导入自己的js -->
+    <script src = '/assets/js/index.js'></script>
   </body>
 </html>
